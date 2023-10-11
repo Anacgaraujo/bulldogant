@@ -25,7 +25,7 @@ const HeroSection = () => {
             fontSize={{ base: "2rem", md: "3rem" }}
             fontWeight="bold"
             padding={{ base: "5px", md: "10px" }}
-            marginTop={{ base: "20vh", md: "50vh" }}
+            marginTop={{ base: "10vh", md: "40vh" }}
             color="black"
           >
             BulldogAnt
