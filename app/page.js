@@ -8,7 +8,7 @@ import LandingPageCard from "./components/LandingPageCard";
 import Heartbeat from "./components/Heartbeat";
 import PicPega from "./components/picpega";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         <main className={styles.main}>
           <div className={styles.description}>
             <TopBanner />
-            <Navbar />
+            {/* <Navbar /> */}
             <HeroSection />
             <LandingPageCard />
             <Heartbeat />
