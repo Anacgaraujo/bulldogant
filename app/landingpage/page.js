@@ -27,8 +27,10 @@ export default function landingpage() {
           justifyContent="center"
           alignContent="center"
           padding="10"
+          direction={{ base: "column", md: "row" }} // Stack vertically on small screens, side-by-side on medium and up
+          spacing={4} // Spacing between elements
         >
-          <Box width="50%" flex="1">
+          <Box width={{ base: "100%", md: "50%" }} flex="1">
             <Text p="2" width="100%">
               In the realm of online advertising, a landing page acts as an
               isolated webpage crafted specifically to promote a brand or a
@@ -43,7 +45,7 @@ export default function landingpage() {
             </Text>
           </Box>
 
-          <Box width="50%">
+          <Box width={{ base: "100%", md: "50%" }}>
             <Image
               objectFit="cover"
               width="100%"
@@ -53,6 +55,7 @@ export default function landingpage() {
             />
           </Box>
         </Flex>
+
         <Flex
           width="100%"
           justifyContent="center"
