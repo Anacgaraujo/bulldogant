@@ -14,7 +14,9 @@ import {
   useColorMode,
   Flex,
   Spacer,
+  Link,
 } from "@chakra-ui/react";
+import NextLink from "next/link";
 
 import React from "react";
 
@@ -36,6 +38,12 @@ function Navbar() {
         {/* <Button ref={btnRef} colorScheme="gray" onClick={onOpen}>
           Menu
         </Button> */}
+
+        <Button colorScheme="gray" variant="outline">
+          <Link as={NextLink} href="mailto:actanaaraujo@gmail.com">
+            Contact us now!
+          </Link>
+        </Button>
 
         <Spacer />
 
