@@ -9,6 +9,7 @@ import {
   Button,
   Text,
   Card,
+  Spacer,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 
@@ -59,53 +60,67 @@ export default function LandingPageCard() {
                 variant="solid"
                 colorScheme="blue"
               >
-                Learn more abour Landing Pages!
+                Learn more about Landing Pages!
               </Button>
             </CardFooter>
           </Box>
         </Stack>
       </Card>
-      <Stack
-        direction={{ base: "column-reverse", sm: "row" }}
-        overflow="hidden"
-        borderWidth="1px"
-        borderRadius="md"
-        spacing={5}
-        p={5}
-        mt={8}
-      >
-        <Box flex="2" p={{ base: "4", sm: "10" }}>
-          <Heading size="md" mb="4">
-            E-mail Marketing
-          </Heading>
+      <Spacer />
+      <Card>
+        <Stack
+          direction={{ base: "column-reverse", sm: "row" }}
+          overflow="hidden"
+          borderWidth="1px"
+          borderRadius="md"
+          spacing={5}
+          p={0}
+          mt={8}
+        >
+          <Box flex="2" p={{ base: "4", sm: "10" }}>
+            <Heading size="md" mb="4">
+              E-mail Marketing
+            </Heading>
 
-          <Text py="2" p="5">
-            In a world cluttered with fleeting digital interactions, email
-            marketing remains a powerful cornerstone. It&rsquo;s personal,
-            direct, and tailored, allowing businesses to speak right into the
-            inboxes of their audience. Beyond just promotions, it&rsquo;s a
-            channel to foster relationships, share stories, and drive tangible
-            results. With every email sent, you&rsquo;re not just reaching out;
-            you&rsquo;re resonating, reminding, and re-engaging. It&rsquo;s a
-            timeless tool with a modern twist. In the age of fleeting attention,
-            make your message count with impactful email marketing.
-          </Text>
-        </Box>
+            <Text py="2" p="5">
+              In a world cluttered with fleeting digital interactions, email
+              marketing remains a powerful cornerstone. It&rsquo;s personal,
+              direct, and tailored, allowing businesses to speak right into the
+              inboxes of their audience. Beyond just promotions, it&rsquo;s a
+              channel to foster relationships, share stories, and drive tangible
+              results. With every email sent, you&rsquo;re not just reaching
+              out; you&rsquo;re resonating, reminding, and re-engaging.
+              It&rsquo;s a timeless tool with a modern twist. In the age of
+              fleeting attention, make your message count with impactful email
+              marketing.
+            </Text>
+            <CardFooter>
+              <Button
+                as={NextLink}
+                href="/emailmkt"
+                variant="solid"
+                colorScheme="blue"
+              >
+                Learn more about E-mail Marketing!
+              </Button>
+            </CardFooter>
+          </Box>
 
-        {/* <CardFooter>
+          {/* <CardFooter>
             <Button variant="solid" colorScheme="blue">
               Buy Latte
             </Button>
           </CardFooter> */}
-        <Image
-          objectFit="cover"
-          flex="1"
-          maxW={{ base: "100%", sm: "200px" }}
-          width={{ base: "100%", sm: "40vw", md: "30vw" }}
-          src="emailmkt.png"
-          alt="Caffe Latte"
-        />
-      </Stack>
+          <Image
+            objectFit="cover"
+            flex="1"
+            maxW={{ base: "100%", sm: "200px" }}
+            width={{ base: "100%", sm: "40vw", md: "30vw" }}
+            src="emailmkt.png"
+            alt="Caffe Latte"
+          />
+        </Stack>
+      </Card>
     </div>
   );
 }
