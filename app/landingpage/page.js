@@ -38,6 +38,7 @@ export default function landingpage() {
               clicking a link from an email or advertisements on platforms like
               Google, Facebook, YouTube, Instagram, or other online spaces.
             </Text>
+
             <Text p="2">
               After all, why have you spent all that money and energy on
               generating traffic – social media, SEO, Facebook Ads and Google

@@ -48,6 +48,7 @@ export default function landingpage() {
               That&rsquo;s why email marketing is such a great way to stay at
               the top of their minds — by staying at the top of their inboxes.
             </Text>
+            <br />
             <Text>
               Email can help you drive engagement with your customers and build
               loyalty while also having a significant, positive impact on your
