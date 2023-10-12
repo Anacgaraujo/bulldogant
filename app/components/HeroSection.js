@@ -29,7 +29,7 @@ const HeroSection = () => {
             color="black"
             textAlign="center"
             position="absolute"
-            bottom="30px"
+            bottom={{ base: "50px", md: "20px" }}
             width="100%"
           >
             BulldogAnt
@@ -41,7 +41,7 @@ const HeroSection = () => {
             fontWeight="medium"
             textAlign="center"
             position="absolute"
-            bottom="10px"
+            bottom={{ base: "10px", md: "5px" }}
             width="100%"
           >
             Accessible online solution for small businesses

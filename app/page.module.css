@@ -8,9 +8,7 @@
 
 /* TOP BANNER */
 
-.topbanner-wrapper{
 
-}
 
 .box {
   --box-border--border: linear-gradient(105deg, rgb(5, 168, 13) 0%, rgb(3, 85, 58) 100%);
@@ -99,4 +97,11 @@
     var(--box--border__bottom) .625rem 100% / calc(100% - 1.25rem) .625rem,
     var(--box--border__bottom-right) 100% 100% / .625rem .625rem;
   mask-repeat: no-repeat;
+}
+
+
+/* NAVBAR */
+
+.navbarWrapper{
+  padding: 10px;
 }
