@@ -31,7 +31,7 @@ export default function LandingPageCard() {
             flex="1"
             maxW={{ base: "100%", sm: "200px" }}
             width={{ base: "100%", sm: "40vw", md: "30vw" }}
-            src="landingpage.jpg"
+            src="landingpage.png"
             alt="Landing Page Image"
           />
 
@@ -102,7 +102,7 @@ export default function LandingPageCard() {
           flex="1"
           maxW={{ base: "100%", sm: "200px" }}
           width={{ base: "100%", sm: "40vw", md: "30vw" }}
-          src="emailmkt.jpg"
+          src="emailmkt.png"
           alt="Caffe Latte"
         />
       </Stack>

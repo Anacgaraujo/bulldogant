@@ -49,7 +49,7 @@ export default function landingpage() {
             <Image
               objectFit="cover"
               width="100%"
-              src="laningpage.jpg"
+              src="laningpage.png"
               alt="Caffe Latte"
               boxShadow="3px 3px 5px 6px #DCDCDC"
             />
