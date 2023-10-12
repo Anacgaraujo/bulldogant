@@ -32,7 +32,7 @@ const HeroSection = () => {
             bottom={{ base: "50px", md: "20px" }}
             width="100%"
           >
-            BulldogAnt
+            The Bulldog Ant
           </Text>
 
           <Text
