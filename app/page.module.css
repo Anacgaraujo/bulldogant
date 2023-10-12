@@ -104,4 +104,9 @@
 
 .navbarWrapper{
   padding: 10px;
+  box-shadow: 0 8px 6px -6px black;
+  position:sticky;
+  top: 0; 
+  z-index:1000;
+
 }

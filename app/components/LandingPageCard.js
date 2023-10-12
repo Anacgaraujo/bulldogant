@@ -8,55 +8,63 @@ import {
   Heading,
   Button,
   Text,
+  Card,
 } from "@chakra-ui/react";
+import NextLink from "next/link";
 
 import styles from "../../app/page.module.css";
 
 export default function LandingPageCard() {
   return (
     <div className={styles.landingPage}>
-      <Stack
-        direction={{ base: "column", sm: "row" }}
-        overflow="hidden"
-        borderWidth="1px"
-        borderRadius="md"
-        spacing={5}
-        p={5}
-      >
-        <Image
-          objectFit="cover"
-          flex="1"
-          maxW={{ base: "100%", sm: "200px" }}
-          width={{ base: "100%", sm: "40vw", md: "30vw" }}
-          src="landingpage.jpg"
-          alt="Landing Page Image"
-        />
+      <Card>
+        <Stack
+          direction={{ base: "column", sm: "row" }}
+          overflow="hidden"
+          borderWidth="1px"
+          borderRadius="md"
+          spacing={5}
+          p={5}
+        >
+          <Image
+            objectFit="cover"
+            flex="1"
+            maxW={{ base: "100%", sm: "200px" }}
+            width={{ base: "100%", sm: "40vw", md: "30vw" }}
+            src="landingpage.jpg"
+            alt="Landing Page Image"
+          />
 
-        <Box flex="2" p={{ base: "4", sm: "10" }}>
-          <Heading size="md" mb="4">
-            Landing Pages
-          </Heading>
+          <Box flex="2" p={{ base: "4", sm: "10" }}>
+            <Heading size="md" mb="4">
+              Landing Pages
+            </Heading>
 
-          <Text py="2" p="5">
-            In today&rsquo;s digital age, a landing page is more than just a
-            digital footprint. It&rsquo;s your business&rsquo;s first
-            impression, its virtual handshake. An effective landing page not
-            only showcases your offerings but also resonates with your audience,
-            guiding them to take action. Whether you&rsquo;re building brand
-            awareness, capturing leads, or driving sales, a compelling landing
-            page is pivotal. It&rsquo;s where interest transforms into
-            engagement. Don&rsquo;t miss the opportunity to connect, impress,
-            and convert. Every successful business deserves a standout landing
-            page.
-          </Text>
-        </Box>
-
-        {/* <CardFooter>
-            <Button variant="solid" colorScheme="blue">
-              Buy Latte
-            </Button>
-          </CardFooter> */}
-      </Stack>
+            <Text py="2" p="5">
+              In today&rsquo;s digital age, a landing page is more than just a
+              digital footprint. It&rsquo;s your business&rsquo;s first
+              impression, its virtual handshake. An effective landing page not
+              only showcases your offerings but also resonates with your
+              audience, guiding them to take action. Whether you&rsquo;re
+              building brand awareness, capturing leads, or driving sales, a
+              compelling landing page is pivotal. It&rsquo;s where interest
+              transforms into engagement. Don&rsquo;t miss the opportunity to
+              connect, impress, and convert. Every successful business deserves
+              a standout landing page.
+            </Text>
+            <CardFooter>
+              <Button
+                as={NextLink}
+                href="/landingpage"
+                variant="solid"
+                colorScheme="blue"
+              >
+                Learn more abour Landing Pages!
+              </Button>
+            </CardFooter>
+          </Box>
+        </Stack>
+      </Card>
       <Stack
         direction={{ base: "column-reverse", sm: "row" }}
         overflow="hidden"
