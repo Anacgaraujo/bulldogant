@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider, ColorModeProvider } from "@chakra-ui/react";
 
 import TopBanner from "./components/topbanner";
 import HeroSection from "./components/HeroSection";
@@ -13,17 +13,19 @@ import Navbar from "./components/Navbar";
 export default function Home() {
   return (
     <ChakraProvider>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <TopBanner />
-          <Navbar />
-          <HeroSection />
-          <LandingPageCard />
-          <Heartbeat />
-          <PicPega />
-          <Footer />
-        </div>
-      </main>
+      <ColorModeProvider options={{ defaultColorMode: "dark" }}>
+        <main className={styles.main}>
+          <div className={styles.description}>
+            <TopBanner />
+            <Navbar />
+            <HeroSection />
+            <LandingPageCard />
+            <Heartbeat />
+            <PicPega />
+            <Footer />
+          </div>
+        </main>
+      </ColorModeProvider>
     </ChakraProvider>
   );
 }
