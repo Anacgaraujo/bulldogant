@@ -21,10 +21,10 @@ const Home = () => {
           even the smallest companies can be <span style={{fontWeight: "400"}}>&apos;Bulldog Tough&apos;</span> in their digital
           presence.
         </p>
-        <div className={styles.buttons}>
+        {/* <div className={styles.buttons}>
           <button className={styles.button}>Learn More</button>
           <button className={styles.button}>Contact</button>
-        </div>
+        </div> */}
         {/* <div className={styles.brands}>
           <Image src="/brands.png" alt="" fill className={styles.brandImg} />
         </div> */}
