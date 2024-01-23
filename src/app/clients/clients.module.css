@@ -79,5 +79,8 @@ color: var(--btn);
     .clientGrid {
       grid-template-columns: 1fr;
     }
+    .strides{
+      flex-direction: column;
+    }
   }
   

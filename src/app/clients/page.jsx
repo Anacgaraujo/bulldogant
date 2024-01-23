@@ -27,7 +27,7 @@ export default function ClientsPage() {
       </div>
       <div className={styles.stridesimg}>
       <Image
-              src="/digitalmarketing.jpg"
+              src="/digitalmarketing.png"
               alt="Client's Business"
               width={400} 
               height={300} 
