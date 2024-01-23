@@ -1,0 +1,83 @@
+.pageContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .clientsheader{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2px;
+    padding-bottom: 4vh;
+  }
+
+  .clientsheader h1{
+    font-weight: 400;
+    color: var(--btn)
+  }
+
+  .clientsheader p{
+    font-weight: 200;
+  }
+
+  .strides{
+    display: flex;
+    padding: 10%;
+    align-items: center;
+  }
+
+  .stridestext{
+    padding: 2%;
+
+  }
+
+  .stridestext h2{
+    font-weight: 300;
+    color: var(--btn);
+  }
+  .stridestext p{
+    font-weight: 200;
+  }
+  
+  .clientGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 6vh;
+  }
+
+  .clientGrid h3{
+    font-weight: 300;
+color: var(--btn);
+  }
+  .clientGrid p{
+    font-weight: 100;
+
+  }
+  
+  .clientLink {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
+  
+  .contactButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000; /* Change to your brand color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Add responsive breakpoints as needed */
+  @media (max-width: 768px) {
+    .clientGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
