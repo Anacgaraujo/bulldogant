@@ -10,17 +10,18 @@ const links = [
     path: "/",
   },
   {
-    title: "About",
+    title: "Services",
     path: "/about",
+  },
+  {
+    title: "Clients",
+    path: "/clients",
   },
   {
     title: "Contact",
     path: "mailto:actanaaraujo.com",
-  },
-  // {
-  //   title: "Blog",
-  //   path: "/blog",
-  // },
+  }
+  
 ];
 
 const Links = () => {
