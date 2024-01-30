@@ -30,7 +30,7 @@ const Home = () => {
         </div> */}
       </div>
       <div className={styles.imgContainer}>
-        <Image src="/thebulldogantlogoqithsloganWHITETransparent.png" alt="The Bulldog Ant Logo - a half bulldog and half ant mascot to symmbolize strenght in small packages" fill className={styles.heroImg} />
+        <Image src="/thebulldogantlogoqithsloganTransparent copy.png" alt="The Bulldog Ant Logo - a half bulldog and half ant mascot to symmbolize strenght in small packages" fill className={styles.heroImg} />
       </div>
     </div>
   );

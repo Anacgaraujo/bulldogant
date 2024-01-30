@@ -2,7 +2,10 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  color: var(--textSoft);
 }
+
+
 
 .logout {
   padding: 10px;

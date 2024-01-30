@@ -13,7 +13,7 @@
 
   .clientsheader h1{
     font-weight: 400;
-    color: var(--btn)
+    color: var(--highlight)
   }
 
   .clientsheader p{
@@ -33,7 +33,7 @@
 
   .stridestext h2{
     font-weight: 300;
-    color: var(--btn);
+    color: var(--highlight);
   }
   .stridestext p{
     font-weight: 200;
@@ -49,7 +49,7 @@
 
   .clientGrid h3{
     font-weight: 300;
-color: var(--btn);
+color: var(--highlight);
   }
   .clientGrid p{
     font-weight: 100;
@@ -74,13 +74,16 @@ color: var(--btn);
     border-radius: 5px;
   }
   
-  /* Add responsive breakpoints as needed */
   @media (max-width: 768px) {
     .clientGrid {
       grid-template-columns: 1fr;
     }
     .strides{
       flex-direction: column;
+    }
+
+    .stridesimg{
+      display: none;
     }
   }
   

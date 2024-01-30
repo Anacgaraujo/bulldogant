@@ -13,10 +13,9 @@ const outfit = Outfit({
 
 export const metadata = {
   title: {
-    default: "Next.js 14 Homepage",
-    template: "%s | Next.js 14",
+    default: "The Bulldog Ant",
   },
-  description: "Next.js starter app description",
+  description: "Online presence for small businesses",
 };
 
 export default function RootLayout({ children }) {

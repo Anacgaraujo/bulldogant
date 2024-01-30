@@ -19,7 +19,7 @@ const links = [
   },
   {
     title: "Contact",
-    path: "mailto:actanaaraujo.com",
+    path: "mailto:info@thebulldogant.com",
   }
   
 ];

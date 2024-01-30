@@ -9,6 +9,7 @@ export const metadata = {
 const AboutPage = () => {
   // console.log("lets check where it works")
   return (
+    <>
     <div className={styles.container}>
       <div className={styles.textContainer}>
         <h2 className={styles.subtitle}>About Agency</h2>
@@ -16,7 +17,7 @@ const AboutPage = () => {
           We create digital ideas that are bigger, bolder, braver and better.
         </h1>
         <p className={styles.desc}>
-          <span style={{ fontWeight: "400", color: "var(--btn)" }}>
+          <span style={{ fontWeight: "400", color: "var(--highlight)" }}>
             Digital Marketing
           </span>{" "}
           - integrated approach to digital marketing, blending content
@@ -24,20 +25,27 @@ const AboutPage = () => {
           optimization to improve reach and revenue.
         </p>
         <p className={styles.desc}>
-          <span style={{ fontWeight: "400", color: "var(--btn)" }}>
+          <span style={{ fontWeight: "400", color: "var(--highlight)" }}>
             Web Design and Develoment
           </span>{" "}
           - Unleash your digital potential with our bespoke Web Design and
           Development services, where creativity meets functionality.
         </p>
         <p className={styles.desc}>
-          <span style={{ fontWeight: "400", color: "var(--btn)" }}>
+          <span style={{ fontWeight: "400", color: "var(--highlight)" }}>
             eCommerce Marketing
           </span>{" "}
           - Elevate your online sales with our targeted eCommerce Marketing
           strategies, designed to drive growth and maximize revenue.{" "}
         </p>
-        <div className={styles.boxes}>
+
+      </div>
+      <div className={styles.imgContainer}>
+        <Image src="/Shopping_online_3-01.png" alt="About Image" fill className={styles.img} />
+      </div>
+    </div>
+
+    <div className={styles.boxes}>
           <div className={styles.box}>
             <h1>Special Service - Offshore Video Production</h1>
             <p>
@@ -52,29 +60,20 @@ const AboutPage = () => {
               elevates your visuals but also ensures your budget goes further.
             </p>
             <div className={styles.imgContainerbr}>
+            <a href="https://www.picpega.com" target="_blank" rel="noopener noreferrer">
               <Image
                 src="/picpegalanding.png"
                 alt="About Image"
-                fill
+                layout="fill"
                 className={styles.imgbr}
               />
+              </a>
             </div>
           </div>
-          {/* <div className={styles.box}>
-            <h1>10 K+</h1>
-            <p>Year of experience</p>
-          </div>
-          <div className={styles.box}>
-            <h1>10 K+</h1>
-            <p>Year of experience</p>
-          </div> */}
         </div>
-      </div>
-      <div className={styles.imgContainer}>
-        <Image src="/about.png" alt="About Image" fill className={styles.img} />
-      </div>
-    </div>
+    </>
   );
 };
+
 
 export default AboutPage;

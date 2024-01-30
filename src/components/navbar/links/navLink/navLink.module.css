@@ -10,3 +10,9 @@
   background-color: var(--text);
   color: var(--bg);
 }
+
+@media (max-width: 768px) {
+  .container {
+  background-color: var(--text);
+ }
+}
